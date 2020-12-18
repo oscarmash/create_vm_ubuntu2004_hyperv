@@ -1,0 +1,6 @@
+---
+# vars file for powershell
+
+nombre_vm: "borrame.ilba.cat"
+CPU: "2"
+RAM: "2GB"

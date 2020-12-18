@@ -1,0 +1,7 @@
+---
+
+- name: Hyper-V PowerShell test
+  hosts: hyper-v
+
+  roles:
+    - powershell

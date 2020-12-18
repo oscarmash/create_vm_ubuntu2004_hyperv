@@ -1,0 +1,9 @@
+---
+# tasks file for powershell
+
+- name: Creando equipo {{ nombre_vm }}
+  script: shared-files/create_vm.ps1 {{ nombre_vm }} {{ CPU }} {{ RAM }}
+
+- name: Esperando a que arranque el equipo {{ nombre_vm }}
+  pause:
+    minutes: 1
